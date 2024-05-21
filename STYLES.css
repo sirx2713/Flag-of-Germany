@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#container > #black-div{
+    height: 100px;
+    width: 800px;
+    background-color: #000000;
+}
+#container > #red-div{
+    height: 100px;
+    width: 800px;
+    background-color: #DD0000;
+}
+#container > #yellow-div{
+    height: 100px;
+    width: 800px;
+    background-color: #FFCC00;
+}
